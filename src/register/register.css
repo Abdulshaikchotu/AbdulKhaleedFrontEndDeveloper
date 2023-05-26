@@ -1,0 +1,36 @@
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: orange;
+}
+
+.form-data {
+    background-color: gray;
+    box-shadow: 2px 3px 50px black;
+    padding: 30px;
+}
+
+.form-data input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: aqua;
+    height: 30px;
+    width: 300px
+        /* height: 100vh; */
+}
+
+#btn-reg {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
